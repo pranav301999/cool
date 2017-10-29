@@ -1,12 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int i,n,f=1;
+int i=1,n,f=1;
 printf("input number= ");
 scanf("%d",&n);
-for(i=1;i<=n;i++)
+while(i<=n)
 {
 f=f*i;
+  i++;
 }
 printf("factorial is %d",f);
 }
